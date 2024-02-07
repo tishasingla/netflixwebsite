@@ -1,0 +1,240 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@200&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("images/Netflix-Background.jpg");
+    background-position: center center;
+    background-size: max(1200px,100vw);
+    background-repeat: no-repeat;
+    height: 70vh;
+    position: relative;
+}
+.main .box{
+    height:70vh;
+    width:100%;
+    opacity:0.64;
+    position:absolute;
+    top:0;
+    background-color: black;
+}
+nav{
+    max-width: 80vw;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 62px;
+}
+nav img{
+    color:rgba(255, 3, 3, 0.954);
+    width:114px;
+    position: relative;
+    z-index: 10;
+    
+}
+/* nav img::first-letter
+{
+    text-shadow: 2px 4px 4px black;
+} */
+nav select
+{
+    position: relative;
+    z-index: 10;
+    margin-right: 20px;
+    background-color: black;
+    color: white;
+    padding:4px 6px 4px 6px;
+    font-weight: bold;
+}
+nav button{
+    position:relative;
+    z-index: 10;
+    background-color: rgb(253, 13, 13);
+    padding:4px 6px 4px 6px;
+    color: white;
+    font-weight: bold;
+}
+.hero
+{
+    font-family: 'Martel Sans';
+    height:calc(100%-62px);
+    display:flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    color:white;
+    position: relative;
+    gap:23px;
+    padding:0px 30px;
+}
+.hero> :first-child
+{
+    font-weight: 900px;
+    font-size: 48px;
+    text-align: center;
+}
+.hero> :nth-child(2){
+    font-weight: 700px;
+    font-size: 24px;
+    text-align: center;
+
+}
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+
+}
+.hero input
+{
+    background-color: rgb(25, 24, 24);
+    color: white;
+    padding-left: 7px;
+    padding-top:9px;
+    padding-bottom: 6px;
+    margin-right: 5px;
+    border-radius: 4px;
+    padding-right: 24px;
+    
+}
+.hero button{
+    background-color: red;
+    color:white;
+    padding-left: 24px;
+    padding-top:9px;
+    padding-bottom: 6px;
+    padding-right: 24px;
+    font-weight: 600;
+    border-radius: 4px;;
+
+}
+.separation{
+    height:7px;
+    background-color: rgb(60, 57, 57);
+    opacity: 0.5;
+
+}
+.first{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    max-width: 70vw;
+    margin:0 auto;
+    color:white;
+    gap:10px;
+    margin-bottom: 90px;
+
+    
+}
+.secimage{
+    position:relative;
+}
+.secimage img{
+    width:30vw;
+     /* position: absolute;  */
+     position:relative;
+    z-index: 10;
+}
+.secimage video{
+    position:absolute;
+    width:100%; 
+    top:51px;
+    right:0;
+    
+}
+.first-content{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    
+    /* align-items: center; */
+}
+.first-content h1{
+    font-size:48px;
+    font-weight: bolder;
+}
+.first-content p{
+    font-size: 24px;
+
+}
+/* .secimage-third img{
+    width:30vw;
+
+}
+
+.secimage-third video
+{
+    /* box-sizing: border-box;
+    min-height: auto; */
+    /* position:absolute;
+    width:22vw;
+    /* top:9px; */
+    /* right:0; */
+.faq h2{
+    text-align: center;
+    margin-bottom: 23px;
+    font-size:48px;
+    font-weight: bold;
+}    
+    
+.faq{
+    background: black;
+    color:white;
+    padding:34px;
+    
+}
+.faqbox{
+    transition: all 0.5s ease-out;
+    display:flex;
+    background-color:rgb(37,36,36);
+    
+    padding:24px;
+    max-width: 70vw;
+    margin: 10px auto;
+    font-size: 24px;
+    border-radius: 4px;
+
+}
+.faqbox:hover{
+    background-color: rgb(69, 62, 62);
+   
+}
+footer{
+    color:white;
+    max-width:60vw;
+    margin:auto;
+}
+.question{
+    
+    color:white;
+    font-size:14px;
+    margin-top: 31px;
+
+}
+.footer{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 60vw;
+    margin:auto;
+    margin-top: 45px;
+}
+.footer-item{
+    display:flex;
+    flex-direction:column;
+    color:white;
+    gap:10px;
+
+
+}
+.footer a{
+    color:white;
+    font-size:14px;
+}
